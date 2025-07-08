@@ -1,6 +1,7 @@
 .garden {
     display: grid;
 }
+
 /* ------------------------------LEVEL 1--------------------------------- */
 #level-1 {
     grid-template-columns: 1fr 1fr;
@@ -89,3 +90,7 @@
 
 /* ------------------------------LEVEL 6--------------------------------- */
 
+#level-6 {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-auto-rows: 5rem;
+}
